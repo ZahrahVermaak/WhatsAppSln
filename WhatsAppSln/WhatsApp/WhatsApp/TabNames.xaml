@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="WhatsApp.TabNames"
+            xmlns:local="clr-namespace:WhatsApp" x:DataType="local:TabNames" Title="WhatsApp">
+    
+    
+    
+    
+    
+    <TabbedPage.Children>
+
+        <local:MainPage Title="Chats"/>
+        <local:StatusPage Title="Status" />
+        <local:Calls Title="Calls"/>
+    </TabbedPage.Children>
+
+    
+  <!--Pages can be added as references or inline-->
+    <!--<TabbedPage.ItemsSource>
+        <x:Array Type="{x:Type local:TabName}">
+            <local:TabName Name="Chats"/>
+            <local:TabName Name="Status"/>
+            <local:TabName Name="Calls"/>
+        </x:Array>
+    </TabbedPage.ItemsSource>
+    <TabbedPage.ItemTemplate>
+        <DataTemplate>
+            <ContentPage Title="{Binding Name}">
+                <ContentPage.Resources>
+                    <ResourceDictionary>
+                        <Style TargetType="Label">
+                            <Setter Property="FontSize" Value="Large" />
+                            <Setter Property="HorizontalTextAlignment" Value="End" />
+                        </Style>
+                    </ResourceDictionary>
+                </ContentPage.Resources>
+
+                <StackLayout>
+                    <StackLayout HorizontalOptions="Center"
+                                 VerticalOptions="CenterAndExpand">
+
+                        <Label Text="{Binding Name, StringFormat='{0:F2}'}" />
+                        <Label Text="{Binding Name, StringFormat='{0:F2}'}" />
+                        <Label Text="{Binding Name, StringFormat='{0:F2}'}"  />
+                        
+                    </StackLayout>
+
+                   
+                </StackLayout>
+            </ContentPage>
+        </DataTemplate>
+    </TabbedPage.ItemTemplate>-->
+
+
+
+
+</TabbedPage>

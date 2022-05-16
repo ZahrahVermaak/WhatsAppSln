@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WhatsApp"
+             x:Class="WhatsApp.Calls">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView Margin="10, 0">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:CallList}">
+                        <local:CallList Name="Sister" Today="08:40 am"/>
+                        <local:CallList Name="Mom" Today="05:00 am"/>
+                        <local:CallList Name="Dad" Today="06:14"/>
+                        <local:CallList Name="Brother" Today="08:19"/>
+                        
+
+
+
+
+                    </x:Array>
+                </ListView.ItemsSource>
+
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="0, 5"
+                                     Orientation="Horizontal">
+                                <StackLayout VerticalOptions="Center"
+                                                  Spacing="0">
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15"/>
+                                    <Label Text="{Binding Today, StringFormat='Today {0:t}'}" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>  
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

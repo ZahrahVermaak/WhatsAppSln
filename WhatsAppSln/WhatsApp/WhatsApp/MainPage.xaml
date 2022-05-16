@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WhatsApp"
+             x:Class="WhatsApp.MainPage"  >
+    <ContentPage.Content>
+        
+        <StackLayout>
+       
+
+        <ListView Margin="10, 0" HasUnevenRows="True">
+
+            <ListView.ItemsSource>
+               <x:Array Type="{x:Type local:Person}">
+
+
+                <local:Person Name="Forest" LastSeen="16:00" Image="WhatsAppPfP1.png"/>
+                <local:Person Name="Winter" LastSeen="13:08" Image="ProfilePicture2.png"/>
+                <local:Person Name="Sam" LastSeen="17:36" Image="ProfilePicture3.png"/>
+                <local:Person Name="Husband" LastSeen="11:00" Image="profilePicture11.png"/>
+                <local:Person Name="Castor" LastSeen="14:45" Image="ProfilePicture5.png"/>
+                <local:Person Name="Mandy" LastSeen="11:11" Image="ProfilePicture6.png"/>
+                <local:Person Name="Mom" LastSeen="12:12" Image="ProfilePicture7.png"/>
+                <local:Person Name="Aida" LastSeen="15:34" Image="ProfilePicture8.png"/>
+                <local:Person Name="Kelly" LastSeen="13:31" Image="Profileicture9.png"/>
+                <local:Person Name="Amber" LastSeen="14:49" Image="ProfilePicture10.png"/>
+                <local:Person Name="Rene" LastSeen="14:49"  Image="Profilepicture4.png"/>
+                <local:Person Name="Sister" LastSeen="14:49" Image="ProfilePicture12.png"/>
+                <local:Person Name="Zoe" LastSeen="14:49" Image="ProfilePicture13.png"/>
+                <local:Person Name="Grandma" LastSeen="14:49" Image="ProfilePicture14.png"/>
+                <local:Person Name="Levonne" LastSeen="14:49" Image="ProfilePicture15.png"/>
+                <local:Person Name="Sasha" LastSeen="14:49" Image="ProfilePicture16.png"/>
+                <local:Person Name="Ameecka" LastSeen="14:49" Image="ProfilePicture17.png"/>
+                <local:Person Name="Chesner" LastSeen="14:12" Image="ProfilePicture18.png"/>
+                <local:Person Name="Amanda" LastSeen="15:42" Image="ProfilePicture19.png"/>
+                <local:Person Name="Zachary" LastSeen="18:50" Image="ProfilePicture20.png"/>
+
+
+
+               </x:Array>
+                              
+           </ListView.ItemsSource>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="0, 5"
+                                     Orientation="Horizontal">
+                                <Frame CornerRadius="45">
+                                    <Image Source="{Binding Image}" HorizontalOptions="Start" HeightRequest="20" Aspect="AspectFit"/>
+                                </Frame>
+                                <StackLayout VerticalOptions="Center" Margin="10,0,0,0"
+                                                  Spacing="0">
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15"/>
+                                        <Label Text="{Binding LastSeen, StringFormat='LastSeen {0:t}'}" />
+                                   
+                                </StackLayout>
+                            
+                            
+                        </StackLayout>                         
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+                
+          </ListView>           
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JaQCHfxSzzCohoNNokizmaLrWDjCU44NTlflu8ThXGBYmELiX4+IkG3HajxzZIoCb8vsrJEg/nYDiav+Q/vt0Q==",
+  "success": true,
+  "projectFilePath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.iOS\\WhatsApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
