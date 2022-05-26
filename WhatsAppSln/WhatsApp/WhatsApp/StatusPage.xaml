@@ -7,27 +7,31 @@
             <ListView Margin="10, 0" HasUnevenRows="True">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type local:Status}">
-                        <local:Status Name="Forest" Today="08:10" />
-                        <local:Status Name="Winter" Today="10:32"/>
-                        <local:Status Name="Sam" Today="04:33"/>
-                        <local:Status Name="John" Today="06:44"/>
-                        <local:Status Name="Castor" Today="07:33"/>
-                        <local:Status Name="Mandy" Today="01:11"/>
-                        <local:Status Name="Mom" Today="02:12"/>
-                        <local:Status Name="Aida" Today="05:34"/>
-                        <local:Status Name="Kelly" Today="03:29"/>
-                        <local:Status Name="Amber" Today="09:49"/>
-                        `
+                        <local:Status Name="Forest" Today="08:10" Image="Status1.png"/><!-- -->
+                        <local:Status Name="Winter" Today="10:32" Image="Status2.png"  />
+                        <local:Status Name="Sam" Today="04:33" Image="Status3.png" />
+                        <local:Status Name="John" Today="06:44" Image="Status4.png"/>
+                        <local:Status Name="Castor" Today="07:33" Image="Status5.png" /> <!-- -->
+                        <local:Status Name="Mandy" Today="01:11" Image="Status6.png" />
+                        <local:Status Name="Mom" Today="02:12" Image="Status7.png" />
+                        <local:Status Name="Aida" Today="05:34" Image="Status8.png" />
+                        <local:Status Name="Kelly" Today="03:29" Image="Status9.png" />
+                        <local:Status Name="Amber" Today="09:49" Image="Status10.png" />
+                        
                     </x:Array>
                 </ListView.ItemsSource>
-
                 
+
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Padding="0, 5"
                                      Orientation="Horizontal">
-                               
+
+                                <Frame CornerRadius="45">
+                                    <Image Source="{Binding Image}" HorizontalOptions="Start" HeightRequest="25" Aspect="AspectFit"/>
+                                </Frame>
+
                                 <StackLayout VerticalOptions="Center"
                                                   Spacing="0">
                                     <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15"/>

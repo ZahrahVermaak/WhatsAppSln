@@ -21,6 +21,8 @@ namespace WhatsApp
 
         public DateTime Today { set; get; }
 
-       
+        public string Image { set; get; }
+
+
     }
 }

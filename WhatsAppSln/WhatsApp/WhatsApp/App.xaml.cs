@@ -11,7 +11,7 @@ namespace WhatsApp
             InitializeComponent();
 
             var navPage = new NavigationPage(new TabNames());
-            navPage.BarBackgroundColor = Color.Green;
+            navPage.BarBackgroundColor = Color.CornflowerBlue;
 
             MainPage = navPage;
         }

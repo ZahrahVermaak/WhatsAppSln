@@ -16721,16 +16721,46 @@ namespace WhatsApp.Droid
 			public const int Status1 = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int test_custom_background = 2131165347;
+			public const int Status10 = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int tooltip_frame_dark = 2131165348;
+			public const int Status2 = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int tooltip_frame_light = 2131165349;
+			public const int Status3 = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int WhatsAppPfP1 = 2131165350;
+			public const int Status4 = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int Status5 = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int Status6 = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int Status7 = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int Status8 = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int Status9 = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int test_custom_background = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int tooltip_frame_dark = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int tooltip_frame_light = 2131165358;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int WhatsAppPfP1 = 2131165360;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int whatsapp_splash = 2131165359;
 			
 			static Drawable()
 			{

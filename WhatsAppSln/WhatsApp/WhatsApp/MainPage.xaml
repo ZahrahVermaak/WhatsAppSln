@@ -3,11 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WhatsApp"
              x:Class="WhatsApp.MainPage"  >
     <ContentPage.Content>
-        
-        <StackLayout>
-       
 
-        <ListView Margin="10, 0" HasUnevenRows="True">
+        <StackLayout>
+
+            <!--<StackLayout BackgroundColor="#075E54">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Image Source="whatsapp1.png" HeightRequest="200" VerticalOptions="CenterAndExpand" Margin="160" />
+                </StackLayout>
+                <Label Text="from" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="White" Margin="-150"/>
+                <Image Source="whatsapp_splash.png" HeightRequest="35" VerticalOptions="Center"/>
+                </StackLayout >-->
+
+
+
+
+
+
+
+
+
+            <ListView Margin="10, 0" HasUnevenRows="True">
 
             <ListView.ItemsSource>
                <x:Array Type="{x:Type local:Person}">

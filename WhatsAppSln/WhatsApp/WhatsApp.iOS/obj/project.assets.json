@@ -988,11 +988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.iOS\\WhatsApp.iOS.csproj",
+      "projectUniqueName": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp.iOS\\WhatsApp.iOS.csproj",
       "projectName": "WhatsApp.iOS",
-      "projectPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.iOS\\WhatsApp.iOS.csproj",
+      "projectPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp.iOS\\WhatsApp.iOS.csproj",
       "packagesPath": "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\",
-      "outputPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.iOS\\obj\\",
+      "outputPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1013,8 +1013,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj": {
-              "projectPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj"
+            "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj": {
+              "projectPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj"
             }
           }
         }

@@ -531,11 +531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj",
+      "projectUniqueName": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj",
       "projectName": "WhatsApp",
-      "projectPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj",
+      "projectPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj",
       "packagesPath": "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\",
-      "outputPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\obj\\",
+      "outputPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

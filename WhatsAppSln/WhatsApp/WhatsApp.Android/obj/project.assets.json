@@ -3178,11 +3178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\WhatsApp.Android.csproj",
+      "projectUniqueName": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\WhatsApp.Android.csproj",
       "projectName": "WhatsApp.Android",
-      "projectPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\WhatsApp.Android.csproj",
+      "projectPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\WhatsApp.Android.csproj",
       "packagesPath": "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\",
-      "outputPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\obj\\",
+      "outputPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3203,8 +3203,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj": {
-              "projectPath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj"
+            "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj": {
+              "projectPath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj"
             }
           }
         }

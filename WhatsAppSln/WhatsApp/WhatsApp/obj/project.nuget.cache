@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nw5R6nxcpwLxtMFmDblyVHVXGVhG8ipl9Czryb8p9jYogq7iGaSQ8U0fsWq4cQj+fEbGJ1ZU2Y0dAo9bMvAOug==",
+  "dgSpecHash": "/eCrTvXKtDFcLIRzZ4XM8zn0AkUPmkgMySLC5Chm7ugjGAY1PJpAhQJeArMfZ/E8qHROzNBVpusfHK/liD1R5Q==",
   "success": true,
-  "projectFilePath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj",
+  "projectFilePath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp\\WhatsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

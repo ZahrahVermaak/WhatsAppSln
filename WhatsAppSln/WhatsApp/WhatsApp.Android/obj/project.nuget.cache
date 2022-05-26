@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZpbJs7qQFxfL1SgclRzKDUIyxS65ulhobpNmplSD9jpvN7c24W55wuRUEhHqwOzulJSq6SViaUb1Ew5+Rpf8Rg==",
+  "dgSpecHash": "L51FKCSw5TspPX3vuFCY9u8wI74GSk4FyVJ6T+erJD9gezWxuqklDQsI6V4g3wSq/m6EIkKrm8vU4xPFlVYmHQ==",
   "success": true,
-  "projectFilePath": "C:\\WhatsApp\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\WhatsApp.Android.csproj",
+  "projectFilePath": "C:\\XamarinWhatsApp\\WhatsAppSln\\WhatsAppSln\\WhatsApp\\WhatsApp.Android\\WhatsApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Zahrah Vermaak\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
